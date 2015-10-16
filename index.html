@@ -55,6 +55,23 @@
       </section>
     </div>
 
-    
+<h3>Sample Commands</h3>
+<p>There are a few commands that you can give your badger with a sorta RESTy interface at http://your.badgers.ip/command?params.</p>
+<table>
+<tr><th>Command</th><th>Action</th></tr>
+<tr><td>/flag</td><td>the current CTF flag</td></tr>
+<tr><td>/flag?newflag=myflag</td><td>set the CTF flag to myflag</td></tr
+<tr><td>/leds</td><td>how many LEDs and how are they flashing</td></tr>
+<tr><td>/leds/</td><td>status of all the LEDs</td></tr>
+<tr><td>/leds?m=none</td><td>all LEDs off</td></tr>
+<tr><td>/leds?m=all</td><td>all LEDs on</td></tr>
+<tr><td>/leds?m=blink</td><td>all LEDs blink</td></tr>
+<tr><td>/leds?m=chase</td><td>two LEDs chasing along the badge</td></tr>
+<tr><td>/leds?m=twinkle</td><td>random LED flashing</td></tr>
+<tr><td>/leds?d=n</td><td>status of LED n</td></tr>
+<tr><td>/leds?d=n&s=1</td><td>set LED on (1) or off (2)</td></tr>
+<tr><td>/leds?d=n&r=R&g=G&b=B</td><td>set an RGB LED to color #RRGGBB. It has to be turned on/off separately.</td></tr>
+</table>
+
   </body>
 </html>
